@@ -59,29 +59,21 @@
         color: #FDC56A;
       }
 
-      /* Image container styling */
-      .image-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* Ensures 3 columns */
-        grid-template-rows: auto, auto, auto; /* Ensures 3 rows */
-        gap: 20px; /* Spacing between images */
-        padding: 20px;
-      }
-
       .image-container img {
-        width: 100%;
+        width: 70%;
         height: auto;
-        border: 2px solid #000; /* Thin black frame */
+        border: 2px solid #000;
         border-radius: 5px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin: 7px;
       }
 
       .image-container img:hover {
-        transform: scale(1.05);
+        transform: scale(1.23);
         box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3);
       }
-
+      
       .video-container video {
         width: 70%;
         max-width: 800px;
@@ -90,6 +82,7 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         margin: 15px 0;
       }
+      
     </style>
   </head>
   <body>
@@ -105,29 +98,26 @@
         </ul>
       </div>
 
-      <!-- Header -->
       <div id="header">
-        <h1 class="italianno">UI-Design</h1>
+        <h1 class="italianno">UI Design</h1>
       </div>
 
-      <!-- Wireframe Section -->
       <section>
         <h2>Wireframe</h2>
         <div class="image-container">
           <img src="MidFi.png" alt="Wireframe">
         </div>
       </section>
-
-      <!-- App High Fidelity Section -->
+      
       <section>
-        <h2>App High Fidelity</h2>
+        <h2>High Fidelity App Design</h2>
         <div class="image-container">
-          <img src="HiFi.png" alt="YAP1">
-          <img src="Product.png" alt="YAP2">
+          <img src="Product.png" alt="YAP1">
+          <img src="HiFi.png" alt="YAP2">
           <img src="Flow.png" alt="YAP3">
         </div>
       </section>
-
+      
       <section>
         <h2>Preview</h2>
         <div class="video-container">
